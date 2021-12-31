@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.thumb {
+    background-size: cover;
+    background-image: linear-gradient(rgba(121,75,196, 0.7), rgba(121,75,196, 0.7)),url(./img/thumb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  body {
+    background-color: #DEEAF0;
+  }
