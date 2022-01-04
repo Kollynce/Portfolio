@@ -16,7 +16,7 @@
     <section>
         <div class="container mx-auto md:mt-28 mt-5 px-4">
             <div class="flex justify-center mb-5">
-                <img class="h-40 w-40 rounded-full object-cover" src="/img/collinskreation.JPG" alt="Collins Kreation">
+                <img class="h-40 w-40 rounded-full object-cover" src="https://res.cloudinary.com/collinskreation/image/upload/v1641320549/IMG_1947_ksmjda.jpg" alt="Collins Kreation">
             </div>
             <div class="flex flex-col justify-center space-y-4">
                 <p class="text-center font-bold text-xl">
