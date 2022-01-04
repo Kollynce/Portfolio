@@ -9,14 +9,14 @@
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a href="#" class="mr-5 hover:text-primary hover:font-bold">Work</a>
                 <a href="#" class="mr-5 hover:text-primary hover:font-bold">About</a>
-                <a href="#" class="mr-5 hover:text-primary hover:font-bold">Contact</a>
+                <a href="#" class="hover:text-primary hover:font-bold">Contact</a>
             </nav>
         </div>
     </header>
     <section>
         <div class="container mx-auto md:mt-28 mt-5 px-4">
             <div class="flex justify-center mb-5">
-                <img class="h-40 w-40 rounded-full object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGZhY2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <img class="h-40 w-40 rounded-full object-cover" src="/img/collinskreation.JPG" alt="Collins Kreation">
             </div>
             <div class="flex flex-col justify-center space-y-4">
                 <p class="text-center font-bold text-xl">
