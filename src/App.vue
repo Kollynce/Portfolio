@@ -19,83 +19,46 @@
                 <img class="h-40 w-40 rounded-full object-cover" src="https://res.cloudinary.com/collinskreation/image/upload/v1641320549/IMG_1947_ksmjda.jpg" alt="Collins Kreation">
             </div>
             <div class="flex flex-col justify-center space-y-4">
-                <p class="text-center font-bold text-xl">
-                    Hey! I am Collins Odeny &#128515; <br> UI designer and Fronted Developer
-                </p>
+                <div class="flex justify-center">
+                    <p class="text-center font-bold text-xl w-full md:w-1/2">
+                        Hey! I am Collins Odeny &#128515;, a full-stack web developer who loves design, building webapps and mobile apps.
+                    </p>
+                </div>
+                
                 <div class="flex justify-center">
                     <p class="text-center leading-relaxed md:w-1/2">
-                        It is a long established fact that a reader will be distracted by the readable content
-                        of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                        more-or-less normal distribution of letters, as opposed to using 'Content here,
-                        content here', making it look like readable English.
+                        Am a self-taught developer with a passion for building web applications. I have a background in graphic design and have worked in the development industry for 5 years using Vue and Laravel.
                     </p>
                 </div>
                 <div class="flex justify-center mt-4">
-                    <a class="text-center py-3 px-8 md:bg-primary w-36 md:text-white text-primary font-semibold rounded-2xl hover:underline md:hover:shadow-2xl" href="#">Resume</a>
+                    <a class="text-center py-3 px-8 md:bg-primary w-36 md:text-white text-primary font-semibold rounded-2xl hover:underline md:hover:shadow-2xl" download href="Resume.pdf">Resume</a>
                 </div>
                 
             </div>
         </div>
     </section>
     <section>
-        <div class="container mx-auto md:mt-28 mt-10 px-4 space-y-16">
-            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-16">
-                <div class="md:w-96 h-96 thumb rounded-2xl flex flex-col items-center justify-center">
-                    <p class="text-center text-white font-bold text-xl">
-                        Homely
-                    </p>
-                    <p class="text-center text-white leading-relaxed px-4">
-                        It is a long established fact that a reader will be distracted by the readable content
-                    </p>
-                </div>
-                <div class="md:w-96 h-96 thumb rounded-2xl flex flex-col items-center justify-center">
-                    <p class="text-center text-white font-bold text-xl">
-                        Homely
-                    </p>
-                    <p class="text-center text-white leading-relaxed px-4">
-                        It is a long established fact that a reader will be distracted by the readable content
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-16">
-                <div class="md:w-96 h-96 thumb rounded-2xl flex flex-col items-center justify-center">
-                    <p class="text-center text-white font-bold text-xl">
-                        Homely
-                    </p>
-                    <p class="text-center text-white leading-relaxed px-4">
-                        It is a long established fact that a reader will be distracted by the readable content
-                    </p>
-                </div>
-                <div class="md:w-96 h-96 thumb rounded-2xl flex flex-col items-center justify-center">
-                    <p class="text-center text-white font-bold text-xl">
-                        Homely
-                    </p>
-                    <p class="text-center text-white leading-relaxed px-4">
-                        It is a long established fact that a reader will be distracted by the readable content
-                    </p>
-                </div>
-            </div>
-        </div>
+        <Thumbnails></Thumbnails>
     </section>
     <section class="md:container md:mx-auto mt-28 w-full">
         <div class="flex justify-between md:mx-44 mx-10 border-t-2 border-tertiary">
-            <a href="#" class="text-primary font-medium py-8">Email</a>
-            <a href="#" class="text-primary font-medium py-8">Call</a>
-            <a href="#" class="text-primary font-medium py-8">Instagram</a>
-            <a href="#" class="text-primary font-medium py-8 hidden sm:block">Twitter</a>
-            <a href="#" class="text-primary font-medium py-8 hidden sm:block">GitHub</a>
-            <a href="#" class="text-primary font-medium py-8 hidden sm:block">LinkedIn</a>
+            <a a href="mailto:collinskreation.com?subject=Inqury" class="text-primary font-medium py-8">Email</a>
+            <a href="tel:+25474 1414 271 " class="text-primary font-medium py-8">Call</a>
+            <a href="https://github.com/Kollynce" class="text-primary font-medium py-8">GitHub</a>
+            <a href="https://twitter.com/collinskreation" class="text-primary font-medium py-8 hidden sm:block">Twitter</a>
+            <a href="https://www.instagram.com/collinskreation/" class="text-primary font-medium py-8 hidden sm:block">Instagram</a>
+            <a href="https://www.linkedin.com/in/collins-odeny-844449159/" class="text-primary font-medium py-8 hidden sm:block">LinkedIn</a>
         </div>
     </section>
 </template>
 
 <script>
-
+import Thumbnails from './components/Thumbnails.vue'
 
 export default {
   name: 'App',
   components: {
-    
+    Thumbnails
   }
 }
 </script>
